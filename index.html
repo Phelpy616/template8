@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>template8</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="logo" data-url="index.html">Logo</h1>
+      <h4 data-url="fleet.html">Fleet</h4>
+      <h4 data-url="aboutUs.html">About us</h4>
+      <h4 data-url="index.html#services">Services</h4>
+      <h4 data-url="index.html#catalog">Catalog</h4>
+      <div class="getAQuoteBtn" data-url="fleet.html#getAQuote">
+        <h4>Get a quote</h4>
+      </div>
+    </div>
+
+    <div class="header2">
+      <h1>Logo</h1>
+      <div data-url="fleet.html#getAQuote"><p>Get A Quote</p></div>
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAKhJREFUaEPt1sENAyAMxVDYf2i6QXN4QhWVuf9AbFDY6/G1Hz//qoFfG8xABpBAVwgBcjwDjBAL/L+Bc85BSBTfe3+FPBqoAeK/VgYQ4PX4+AaunwA3qAEEyPEMMEIsMBpokCnhvhKvf+bwBlyPj4/4+glwgxpAgBzPACPEAqOBJrESbhI3ifEODfHxEd/d3qvXgDO0Chkwfp7OgDO0Chkwfp7OgDO0Ch/WhTAxxUhjEwAAAABJRU5ErkJggg=="
+      />
+    </div>
+
+    <div class="menu">
+      <div class="menuTop">
+        <h1>Logo</h1>
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAATtJREFUaEPtWEEOwyAMS37WvWz72fYzJiZVQhUtiR2VtUqvI4kdmwBTufinF8cvSWC2gqlAKkB2IC1ENpAOTwXoFpIJUgGygXQ4rEAp5SUiTxF5qOoHQRKRAyLQFF5xu0lE5KjF3QRKKYuIvDsdN5PogP+lU1U3HndALbQHwGInJrZnU4gASiIaPGShtgseQJ61noEAK7AWsQCzrPGAbtfSBEZ2EpG66eu43X7mTX9ELoTAgESvfgh4eg9skR1YpV0aBj6cgEGJUPBJ4FYWMvofvjvtTaKQKXQ05/9+jFoOKcuaKQeZB5hnrYcMbCEEEBIzIgMRYIAwsSHX6bs+aNwn7LQnZeca7QYfmQPaAw2ABf1HIioHRWA0Ic74PQmc0eVTXmSziKSFZnV+rZsKpAJkB9JCZAPp8Msr8AU9e7wxdzBSrAAAAABJRU5ErkJggg=="
+        />
+      </div>
+
+      <div class="menuNavigation"><p data-url="fleet.html">Fleet</p></div>
+      <div class="menuNavigation"><p data-url="aboutUs.html">About Us</p></div>
+      <div class="menuNavigation">
+        <p data-url="index.html#services">Services</p>
+      </div>
+      <div class="menuNavigation">
+        <p data-url="index.html#catalog">Catalog</p>
+      </div>
+    </div>
+
+    <div class="landing">
+      <img src="images/urus2.jpg" alt="" />
+
+      <div class="overlayLanding">
+        <div class="overlayWrapper overlayFrstChild">
+          <div>
+            <h1>
+              LUXURY<br />
+              CAR RENTAL
+            </h1>
+          </div>
+
+          <div></div>
+        </div>
+
+        <div class="overlayWrapper overlayScndChild">
+          <div></div>
+
+          <div class="pickUp">
+            <div>
+              <label class="location" for="location">Location</label>
+              <select name="" id="location" required>
+                <option value="" selected disabled>Select</option>
+                <option value="">Los Angeles</option>
+                <option value="">Miami</option>
+              </select>
+
+              <label for="pickUpDate">*Pick up date</label>
+              <input id="pickUpDate" type="date" required />
+
+              <label for="pickUpTime">*Pick up time</label>
+              <input id="pickUpTime" type="time" required />
+
+              <label class="vehicle" for="vehicle">Vehicle</label>
+              <select name="" id="vehicle" required>
+                <option value="" selected disabled>Select</option>
+                <option value="">Ferrari SF90</option>
+                <option value="">Mclaren 720s White</option>
+                <option value="">Lamborghini Revuelto</option>
+                <option value="">Mclaren 720s Orange</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="returnDate">*Return date</label>
+              <input id="returnDate" type="date" required />
+
+              <label for="returnTime">*Return time</label>
+              <input type="time" required />
+
+              <div class="submitBtn"><h4>Submit</h4></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="landing2">
+      <img src="images/urusMobile.jpg" alt="" />
+      <div class="overlayLanding2">
+        <div>
+          <h1>
+            LUXURY<br />
+            CAR RENTAL
+          </h1>
+        </div>
+
+        <div><p>Rent your dream car today</p></div>
+
+        <div class="pickUp2">
+          <label class="location" for="location">Location</label>
+          <select name="" id="location" required>
+            <option value="" selected disabled></option>
+            <option value="">Los Angeles</option>
+            <option value="">Miami</option>
+          </select>
+
+          <label for="pickUpDate">*Pick up date</label>
+          <input id="pickUpDate" type="date" required />
+
+          <label for="pickUpTime">*Pick up time</label>
+          <input id="pickUpTime" type="time" required />
+
+          <label class="vehicle" for="vehicle">Vehicle</label>
+          <select name="" id="vehicle" required>
+            <option value="" selected disabled></option>
+            <option value="">Ferrari SF90</option>
+            <option value="">Mclaren 720s White</option>
+            <option value="">Lamborghini Revuelto</option>
+            <option value="">Mclaren 720s Orange</option>
+          </select>
+
+          <label for="returnDate">*Return date</label>
+          <input id="returnDate" type="date" required />
+
+          <label for="returnTime">*Return time</label>
+          <input type="time" required />
+
+          <div class="submitBtn"><h4>Submit</h4></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ourHistory">
+      <div><h1>OUR HISTORY</h1></div>
+
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+          laborum delectus. Modi, a! Reiciendis enim ipsa iure eveniet eum sit.
+          <br />
+          <br />
+          <span data-url="aboutUs.html">Read more</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="carShowOff">
+      <video class="carShowOffDesktop" autoplay loop muted>
+        <source src="images/carShowOff.mov" type="video/mp4" />
+      </video>
+
+      <video class="carShowOffMobile" autoplay loop muted>
+        <source src="images/carShowOffMobile.mov" type="video/mp4" />
+      </video>
+
+      <div class="overlayShowOff"></div>
+    </div>
+
+    <div class="whatWeProvide" id="services">
+      <div><h1 class="whatWeProvideTitle">WHAT WE PROVIDE</h1></div>
+
+      <div>
+        <div>
+          <h1 class="goBeyondTxt">
+            Go beyond the horizon with the best luxury car rental service
+          </h1>
+        </div>
+
+        <div class="basicInfo">
+          <h1></h1>
+          <h1>Luxury Fleet</h1>
+          <h1>Maintenance Plans</h1>
+          <h1>Special Packages</h1>
+          <h1>Drive & Save</h1>
+
+          <div class="getAQuoteBtn" data-url="fleet.html#getAQuote">
+            <h3>GET A QUOTE</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="showCase" id="catalog">
+      <div class="showCaseFrstChild">
+        <div>
+          <h1>
+            VEHICLE<br />
+            SHOWCASE
+          </h1>
+
+          <h1>VEHICLE SHOWCASE</h1>
+        </div>
+
+        <div>
+          <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,facere!
+            <br />Dolor culpa facere nihil quis sit quasi assumenda facilis ut.
+            <br />
+            <br />
+            <span data-url="fleet.html">Read more</span>
+          </h3>
+        </div>
+      </div>
+
+      <div class="showCaseScndChild">
+        <img class="active" src="images/car1.jpg" alt="" />
+        <img src="images/ car2.jpg" alt="" />
+        <img src="images/car3.jpg" alt="" />
+        <img src="images/car4.jpg" alt="" />
+
+        <div class="showCaseOverlay"></div>
+      </div>
+
+      <div class="showCaseScndChild2">
+        <img class="active2" src="images/OGSF90Mobile.jpg" alt="" />
+        <img src="images/OG720SMobile.jpg" alt="" />
+        <img src="images/OG720SOrMobile.jpg" alt="" />
+        <img src="images/OGRevueltoMobile.jpg" alt="" />
+
+        <div class="showCaseOverlay2"></div>
+      </div>
+
+      <div class="showCaseThrdChild">
+        <h2 class="active2">FERRARI SF90</h2>
+        <h2>MCLAREN 720S WHITE</h2>
+        <h2>MCLAREN 720S ORANGE</h2>
+        <h2>LAMBORGUINI REVUELTO</h2>
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="slider-wrapper">
+        <h1>GO BEYOND THE HORIZON</h1>
+        <h1>GO BEYOND THE HORIZON</h1>
+        <h1>GO BEYOND THE HORIZON</h1>
+        <h1>GO BEYOND THE HORIZON</h1>
+
+        <h1>GO BEYOND THE HORIZON</h1>
+        <h1>GO BEYOND THE HORIZON</h1>
+        <h1>GO BEYOND THE HORIZON</h1>
+        <h1>GO BEYOND THE HORIZON</h1>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <div class="feedbackFrstChild">
+        <div>
+          <h1>
+            CLIENT<br />
+            FEEDBACK
+          </h1>
+
+          <h1>CLIENT FEEDBACK</h1>
+        </div>
+
+        <div>
+          <h1>John M.</h1>
+          <p>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            incidunt nobis beatae fugiat dolore laudantium dignissimos facere,
+            accusantium voluptates minima!"
+          </p>
+
+          <p>
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, ab?"
+          </p>
+        </div>
+
+        <div>
+          <h1>John M.</h1>
+          <p>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            incidunt nobis beatae fugiat dolore laudantium dignissimos facere,
+            accusantium voluptates minima!"
+          </p>
+
+          <p>
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, ab?"
+          </p>
+        </div>
+      </div>
+
+      <div class="feedbackScndChild">
+        <div>
+          <h1>John M.</h1>
+          <p>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            incidunt nobis beatae fugiat dolore laudantium dignissimos facere,
+            accusantium voluptates minima!"
+          </p>
+
+          <p>
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, ab?"
+          </p>
+        </div>
+
+        <div>
+          <h1>John M.</h1>
+          <p>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            incidunt nobis beatae fugiat dolore laudantium dignissimos facere,
+            accusantium voluptates minima!"
+          </p>
+
+          <p>
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, ab?"
+          </p>
+        </div>
+
+        <div>
+          <h1>John M.</h1>
+          <p>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            incidunt nobis beatae fugiat dolore laudantium dignissimos facere,
+            accusantium voluptates minima!"
+          </p>
+
+          <p>
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, ab?"
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footerFrstChild">
+        <h1>Logo</h1>
+        <p class="privacyPolicy">Privacy policy</p>
+
+        <div class="locationNContact">
+          <div>
+            <h1>Location</h1>
+            <p>
+              123 exemple street,<br />
+              NYC, NY, 12345
+            </p>
+          </div>
+
+          <div>
+            <h1>Contact</h1>
+            <p>carrental@rental.com</p>
+            <p>123-456-7890</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footerScndChild">
+        <h1>STAY UPDATED</h1>
+
+        <label for="joinCommunity">*Email</label>
+        <input class="emailJoinCommunity" type="email" required />
+
+        <div>
+          <input class="checkboxDescktop" type="checkbox" required />
+          <p>
+            <span><input class="checkboxMobile" type="checkbox" /></span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam,
+            ullam.
+          </p>
+
+          <div><h3>Join our community</h3></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
