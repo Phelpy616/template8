@@ -76,20 +76,35 @@ try {
 }
 
 /*automatic car img change for mobile*/
-const imagesMobile = document.querySelectorAll(".showCaseScndChild2 img");
-if (window.innerWidth <= 450) {
-  try {
-    let indexMobile = 0;
-    function changeImageMobile() {
-      imagesMobile[indexMobile].classList.remove("active2"); // Hide current image
-      indexMobile = (indexMobile + 1) % imagesMobile.length; // Move to next image
-      imagesMobile[indexMobile].classList.add("active2"); // Show new image
-    }
-    setInterval(changeImageMobile, 5000); // Change image every 5 seconds
-  } catch (error) {
-    console.log(error);
-  }
+// const imagesMobile = document.querySelectorAll(".showCaseScndChild2 img");
+// if (window.innerWidth <= 450) {
+//   try {
+//     let indexMobile = 0;
+//     function changeImageMobile() {
+//       imagesMobile[indexMobile].classList.remove("active2"); // Hide current image
+//       indexMobile = (indexMobile + 1) % imagesMobile.length; // Move to next image
+//       imagesMobile[indexMobile].classList.add("active2"); // Show new image
+//     }
+//     setInterval(changeImageMobile, 5000); // Change image every 5 seconds
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+
+const imagesMobile = document.querySelectorAll(".ALTshowcase img");
+// if (window.innerWidth <= 450) {
+//   try {
+let indexMobile = 0;
+function changeImageMobile() {
+  imagesMobile[indexMobile].classList.remove("active2"); // Hide current image
+  indexMobile = (indexMobile + 1) % imagesMobile.length; // Move to next image
+  imagesMobile[indexMobile].classList.add("active2"); // Show new image
 }
+setInterval(changeImageMobile, 5000); // Change image every 5 seconds
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
 
 /*go to get a quote throught .header2 on mobile*/
 const getAQuoteBtnMobile = document.querySelector(".header2 div");

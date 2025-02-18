@@ -903,6 +903,7 @@ body {
   /*showcase*/
   .showCase {
     height: auto;
+    display: none;
   }
 
   .showCase .showCaseFrstChild {
@@ -982,6 +983,39 @@ body {
 
   .showCase .showCaseThrdChild h2 {
     font-size: 1.5rem;
+  }
+
+  /*ALT SHOWCASE*/
+  .ALTshowcase {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+  }
+
+  .ALTshowcase img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .ALTshowcase img.active2 {
+    opacity: 1;
+  }
+
+  .ALTshowcase .showCaseOverlay2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(193, 29, 202, 0.348);
+    z-index: 10;
   }
 
   /*slider*/
