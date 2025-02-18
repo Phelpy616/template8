@@ -77,7 +77,7 @@ try {
 
 /*automatic car img change for mobile*/
 const imagesMobile = document.querySelectorAll(".showCaseScndChild2 img");
-if (imagesMobile.length != 0) {
+if (window.innerWidth <= 450) {
   try {
     let indexMobile = 0;
     function changeImageMobile() {
