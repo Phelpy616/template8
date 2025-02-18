@@ -76,35 +76,32 @@ try {
 }
 
 /*automatic car img change for mobile*/
-// const imagesMobile = document.querySelectorAll(".showCaseScndChild2 img");
-// if (window.innerWidth <= 450) {
-//   try {
-//     let indexMobile = 0;
-//     function changeImageMobile() {
-//       imagesMobile[indexMobile].classList.remove("active2"); // Hide current image
-//       indexMobile = (indexMobile + 1) % imagesMobile.length; // Move to next image
-//       imagesMobile[indexMobile].classList.add("active2"); // Show new image
-//     }
-//     setInterval(changeImageMobile, 5000); // Change image every 5 seconds
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
-
 const imagesMobile = document.querySelectorAll(".ALTshowcase img");
-// if (window.innerWidth <= 450) {
-//   try {
-let indexMobile = 0;
-function changeImageMobile() {
-  imagesMobile[indexMobile].classList.remove("active2"); // Hide current image
-  indexMobile = (indexMobile + 1) % imagesMobile.length; // Move to next image
-  imagesMobile[indexMobile].classList.add("active2"); // Show new image
+if (imagesMobile != 0) {
+  try {
+    let indexMobile = 0;
+    function changeImageMobile() {
+      imagesMobile[indexMobile].classList.remove("active2"); // Hide current image
+      indexMobile = (indexMobile + 1) % imagesMobile.length; // Move to next image
+      imagesMobile[indexMobile].classList.add("active2"); // Show new image
+    }
+    setInterval(changeImageMobile, 5000); // Change image every 5 seconds
+  } catch (error) {
+    console.log(error);
+  }
 }
-setInterval(changeImageMobile, 5000); // Change image every 5 seconds
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
+
+/*automatic name of car change for mobile*/
+const ALTcarNames = document.querySelectorAll(".ALTcarname h2");
+let ALTcarNamesIndex = 0;
+function ALTCarNameChange() {
+  try {
+    ALTcarNames[ALTcarNamesIndex].classList.remove("active2"); // Hide current name
+    ALTcarNamesIndex = (ALTcarNamesIndex + 1) % ALTcarNames.length; // Move to next name
+    ALTcarNames[ALTcarNamesIndex].classList.add("active2"); // Show new name
+  } catch (error) {}
+}
+setInterval(ALTCarNameChange, 5000);
 
 /*go to get a quote throught .header2 on mobile*/
 const getAQuoteBtnMobile = document.querySelector(".header2 div");
