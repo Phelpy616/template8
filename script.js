@@ -147,3 +147,9 @@ if (logoMobileMenu) {
     window.location.href = "index.html";
   });
 }
+
+//go to ConstellarWeb page
+const goBackBtn = document.querySelector('.tag div')
+goBackBtn.addEventListener('click',()=>{
+  window.location.href = 'https://constellarweb.com/'
+})
