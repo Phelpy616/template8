@@ -1179,3 +1179,216 @@ body {
     font-size: 1.5rem;
   }
 }
+
+/*media query for ipads portrait*/
+@media (min-width: 451px) and (max-width: 834px){
+/*landing*/
+/*landing*/
+.landing {
+  width: 100%;
+  height: 95vh;
+  margin-top: 80px;
+  position: relative;
+}
+
+.landing .overlayLanding .overlayFrstChild div:nth-child(1) h1 {
+  font-size: 3rem;
+}
+
+.pickUp div:nth-child(1) .location {
+  margin-right: 90px;
+}
+
+.overlayScndChild .pickUp div label {
+  margin-right: 70px;
+}
+
+.overlayScndChild .pickUp div:nth-child(2) .submitBtn {
+  width: 170px;
+}
+
+.overlayScndChild .pickUp div input,
+.overlayScndChild .pickUp div select {
+  width: 160px;
+}
+
+.overlayScndChild .pickUp div:nth-child(1) .vehicle {
+  margin-right: 100px;
+}
+
+/*our history*/
+.ourHistory div:nth-child(1) h1 {
+  font-size: 3rem;
+}
+
+/*video car show off*/
+.carShowOff {
+  height: 290px;
+}
+
+/*what we provide*/
+.whatWeProvide {
+  height: auto;
+}
+
+.whatWeProvide div:nth-child(1) {
+  height: 150px;
+}
+
+.whatWeProvide div:nth-child(1) .whatWeProvideTitle {
+  font-size: 4rem;
+}
+
+.whatWeProvide div:nth-child(2) div:nth-child(1) {
+  width: 65%;
+}
+
+.whatWeProvide div:nth-child(2) .basicInfo {
+  width: 35%;
+  box-sizing: border-box;
+  padding-top: 35px;
+}
+
+.whatWeProvide div:nth-child(2) .basicInfo h1 {
+  font-size: 1.5rem;
+}
+
+.whatWeProvide div:nth-child(2) div:nth-child(2) .getAQuoteBtn {
+  margin-top: 50px;
+}
+
+/*showcase*/
+.showCase .showCaseFrstChild {
+  height: 200px;
+}
+
+.showCase .showCaseFrstChild div:nth-child(1) h1:nth-child(1) {
+  font-size: 3rem;
+}
+
+.showCase .showCaseScndChild {
+  height: 330px;
+}
+
+/*slider*/
+.slider {
+  height: 150px;
+}
+
+/*feedback*/
+.feedback {
+  height: 90vh;
+}
+
+.feedback .feedbackFrstChild div:nth-child(1) h1:nth-child(1) {
+  font-size: 2.5rem;
+}
+
+/*footer*/
+.footer .footerScndChild h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer .footerFrstChild {
+  padding: 20px;
+}
+
+.footer .footerFrstChild .locationNContact {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footerFrstChild .locationNContact div h1{
+  margin: 0;
+}
+}
+
+/*media query for ipads landscape*/
+@media (min-width: 1024px) and (max-width: 1366px){
+  .landing .overlayLanding .overlayFrstChild div:nth-child(1) h1 {
+    font-size: 4rem;
+  }
+
+/*our history*/
+.ourHistory {
+  height: auto;
+}
+
+.ourHistory div:nth-child(1) h1 {
+  font-size: 4rem;
+}
+
+/*video car show off*/
+.carShowOff {
+  height: 350px;
+}
+
+/*what we provide*/
+.whatWeProvide div:nth-child(2) .basicInfo h1 {
+  font-size: 1.5rem;
+}
+
+.whatWeProvide div:nth-child(2) .basicInfo h1:nth-child(1){
+  margin-top: 60px;
+}
+
+/*showcase*/
+.showCase .showCaseFrstChild {
+  height: 200px;
+}
+
+.showCase .showCaseFrstChild div:nth-child(1) h1:nth-child(1) {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.showCase .showCaseScndChild {
+  height: 400px;
+}
+
+/*slider*/
+.slider {
+  height: 180px;
+}
+
+/*feedback*/
+.feedback .feedbackFrstChild div:nth-child(1) h1:nth-child(1) {
+  font-size: 3.2rem;
+}
+
+/*footer*/
+.footer .footerFrstChild {
+  padding: 20px;
+}
+
+.footer .footerFrstChild .locationNContact {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footerFrstChild .locationNContact div h1{
+  margin: 0;
+}
+
+.footer .footerScndChild h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 400;
+}
+}
+
+/*ipad pro 13 portrait*/
+@media (device-width: 1024px) and (device-height: 1366px){
+  /*landing*/
+.landing {
+  height: 95vh;
+}
+
+/*feedback*/
+.feedback {
+  height: 60vh;
+}
+}
+

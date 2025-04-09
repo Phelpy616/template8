@@ -785,3 +785,162 @@ html {
     font-size: 1.5rem;
   }
 }
+
+/*media query for ipads portrait*/
+@media (min-width: 451px) and (max-width: 834px){
+  /*landing*/
+  .landing {
+    height: 300px;
+  }
+
+  .landing h1 {
+    font-size: 4rem;
+    width: fit-content;
+  }
+
+/*car info*/
+.info .wrapper1 div:nth-child(1){
+  height: 50%;
+  padding: 0 20px 0 20px;
+}
+
+  .info .wrapper1 div:nth-child(1) h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .info .wrapper1 .infoFull {
+    height: 11%;
+  }
+
+  .info .wrapper1 .infoFull h1{
+    margin: 0;
+  }
+
+  .info.active {
+    height: 350px;
+  }
+/*get a quote*/
+.getAQuote {
+  height: 400px;
+}
+
+  .getAQuote .quoteFrstChild h1:nth-child(1) {
+    font-size: 5rem;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .getAQuote .quoteScndChild {
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  }
+
+  .getAQuote .quoteScndChild .selectLocation select {
+    width: 100%;
+  }
+
+.getAQuote .quoteScndChild .pickUp div input,
+.getAQuote .quoteScndChild .pickUp div select {
+  width: 130px;
+}
+
+.getAQuote .quoteScndChild .pickUp div label {
+  margin-right: 50px;
+}
+
+.getAQuote .quoteScndChild .pickUp div .vehicle {
+  margin-right: 90px;
+}
+
+.getAQuote .quoteScndChild .pickUp div:nth-child(2) .submitBtn {
+  width: 150px;
+}
+
+.getAQuote .quoteScndChild .selectLocation label{
+  margin: 0;
+}
+  
+.pickUp div label {
+    margin-right: 70px;
+  }
+  
+.pickUp div:nth-child(2) .submitBtn {
+    width: 170px;
+  }
+  
+.pickUp div input,
+.pickUp div select {
+    width: 160px;
+  }
+  
+.pickUp div:nth-child(1) .vehicle {
+    margin-right: 100px;
+  }
+
+  /*footer*/
+.footer .footerScndChild h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer .footerFrstChild {
+  padding: 20px;
+}
+
+.footer .footerFrstChild .locationNContact {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footerFrstChild .locationNContact div h1{
+  margin: 0;
+}
+}
+
+/*media query for ipads landscape*/
+@media (min-width: 1024px) and (max-width: 1366px){
+  /*landing*/
+  .landing h1 {
+    font-size: 5rem;
+  }
+
+/*footer*/
+.footer .footerFrstChild {
+  padding: 20px;
+}
+
+.footer .footerFrstChild .locationNContact {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footerFrstChild .locationNContact div h1{
+  margin: 0;
+}
+
+.footer .footerScndChild h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+/*car info*/
+.info.active {
+  height: 400px;
+}
+
+/*get a quote*/
+.getAQuote .quoteScndChild .selectLocation label {
+  margin-left: 0;
+}
+
+.getAQuote .quoteScndChild .selectLocation select {
+  width: 100%;
+}
+}
+

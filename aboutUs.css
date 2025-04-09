@@ -439,3 +439,98 @@ body {
     font-size: 1.5rem;
   }
 }
+
+/*media query for ipads portrait*/
+@media (min-width: 451px) and (max-width: 834px){
+  /*top*/
+  .top {
+    height: 250px;
+  }
+
+  .top h1 {
+    font-size: 4rem;
+  }
+
+  /*main*/
+  .main h2 {
+    width: 90%;
+    font-weight: 500;
+  }
+
+   /*footer*/
+.footer .footerScndChild h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer .footerFrstChild {
+  padding: 20px;
+}
+
+.footer .footerFrstChild .locationNContact {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footerFrstChild .locationNContact div h1{
+  margin: 0;
+}
+}
+
+/*media query for ipads landscape*/
+@media (min-width: 1024px) and (max-width: 1366px){
+/*top*/
+.top {
+  height: auto;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.top h1 {
+  font-size: 5rem;
+}
+
+/*main*/
+.main h2 {
+  width: 90%;
+  font-weight: 500;
+}
+
+/*footer*/
+.footer .footerFrstChild {
+  padding: 20px;
+}
+
+.footer .footerFrstChild .locationNContact {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footerFrstChild .locationNContact div h1{
+  margin: 0;
+}
+
+.footer .footerScndChild h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 400;
+}
+}
+
+
+/*ipad pro 13 portrait*/
+@media (device-width: 1024px) and (device-height: 1366px){
+body{
+  background-color: #191A1B;
+}
+
+
+/*footer*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+}
